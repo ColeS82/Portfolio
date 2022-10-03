@@ -1,4 +1,40 @@
-html {
+#header-img {
+    vertical-align: bottom;
+    height: 250px;
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 55%;
+    border: 10px solid #9bb7d0;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+#about-me{
+    border: solid;
+}
+
+#about-me h2{
+    text-shadow: 5px 5px 10px;
+}
+
+p{
+    text-indent: 20px;
+    font-size: x-large;
+    text-shadow: 5px 5px 10px;
+}
+
+
+
+figure {
+    margin-left: 10px;
+}
+
+
+/* html {
     background-color:#3b476d;
 }
 
@@ -199,4 +235,5 @@ span {
 
 #TBA img{
     height: 500px;
-}
+} */
+
