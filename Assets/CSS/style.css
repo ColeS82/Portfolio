@@ -50,6 +50,13 @@ figure {
     box-shadow: 0 -10px 10px;
 }
 
+#generate-psswd-btn:hover p{
+    background-color: rgb(54, 107, 168);
+}
+
+#generate-psswd-btn:hover{
+    box-shadow: 0 -10px 10px;
+}
 
 
 @media screen and (max-width:600px){
