@@ -23,34 +23,32 @@
     <img id="header-img" src="./Assets/images/starpool2_crop.png" alt="a pitcure of trees siluetted by a stary sky." id="header-img">
 
     <main class="">
-
-        <section class="w3-margin-top w3-container">
-
-            <figure class="w3-center w3-container w3-theme-l2 w3-col s11 l2 w3-round-large w3-card">
+        <section id="welcome-fig-container" class="w3-margin-top w3-container">
+            <figure id="id-card" class="w3-center w3-container w3-theme-l2 w3-col s11 l2 w3-round-large w3-card">
                 <img class="w3-col s10 w3-margin-top w3-round"  src="./Assets/images/Cole.png" alt="" style="float: none;">
-                    <figcaption class="w3-large">
+                    <figcaption class="w3-large w3-col s12">
                         <hr>Cole Sexson<hr>
                     </figcaption>
             </figure>
 
-            <section id="about-me" class="w3-right w3-container w3-margin w3-theme-l3 w3-col s11 l9 w3-round-large">
+            <section id="welcome" class=" w3-container w3-theme-l3 w3-col s11 l9 w3-round-large">
                 <article class="w3-margin-top w3-container w3-margin-bottom w3-theme-d2 w3-col s12 l12 w3-round-xlarge w3-card-4" >
                     <h2 class="w3-center">
                         Welcome!<hr>
                     </h2>
-                    <p class="bio-p">
+                    <p class="welcome-p">
                         Thanks for taking a look at my website.  I am always building my web dev skills so check back often for new... deveopments.
                     </p>
-                    <p class="bio-p">
+                    <p class="welcome-p">
                         The goal of this site is to display and share some of my tinkerings with code and see how far I can go with the w3.css framework.
                     </p>
-                    <p class="bio-p">
+                    <p class="welcome-p">
                         It is my hope to improve greatly my skills in java script.  Currently this is my greatest challenge
                     </p>
-                    <p class="bio-p">
+                    <p class="welcome-p">
                         Currently I like to design a site with a design first approach.  Granted a site that does not function is not worth visiting but I find that design first and ask questions later makes for less refactoring to allow for the style desired.
                     </p>
-                    <P class="bio-p">
+                    <P class="welcome-p">
                         Please take a look at some of my tinkering below
                     </P>
                 </article>
@@ -62,14 +60,16 @@
             <h2 id="my-works-hdr" class="w3-theme-l2 w3-xxxlarge" style="display: flex; justify-content: center;">My work <hr>
             </h2>
             
+            <!--to provide centering I added this empty div to pushthe orange background (#btn-playte towrads the middle)-->
             <div class="w3-container w3-col s12 l2">
             </div>
-
-            <div id="btn-plate" class="w3-center w3-round w3-container w3-col l8" style="background-color: #9c4c3d;">
+            
+            <!--The orange button plate-->
+            <div id="btn-plate" class="w3-center w3-round w3-container w3-col l8">
                 <div class="w3-container w3-col l1"></div>
 
                 <div class="w3-col s11 l3 w3-theme-l3 w3-margin w3-card-4 w3-round">
-                    <div id="generate-psswd-btn" class="w3-theme w3-round-large w3-margin" style="min-height: 100px; display: flex;">
+                    <div id="generate-psswd-btn" class="btn w3-round-large w3-margin" style="min-height: 100px; display: flex;">
                         <p>Password
                             <img src="./Assets/images/4693256.png" alt="" style="float: none;" class=" w3-col s3 l3">
                             Generator
@@ -79,7 +79,7 @@
 
                 <div class="w3-col s11 l3 w3-theme-l3 w3-margin w3-card-4 w3-round" >
                     <a href="https://coles82.github.io/Workday-Sceduler" target="_blank">
-                        <div id="day-sched-btn" class="w3-theme w3-margin w3-round-large" style="display:flex;">
+                        <div id="day-sched-btn" class="btn w3-margin w3-round-large" style="display:flex;">
                             <p>Day
                                 <img src="./Assets/images/5242731.png" alt="" class="w3-col s3 l3" style="float: none;">
                                 Scheduler
@@ -90,7 +90,7 @@
 
                 <div class="w3-col s11 l3 w3-theme-l3 w3-margin w3-card-4 w3-round">
                     <a href="https://trufl.github.io/nonsocial-drinker/" target="_blank">
-                        <div id="non-social-btn" class="w3-theme w3-margin w3-round-large" style="display: flex;">
+                        <div id="non-social-btn" class="btn w3-margin w3-round-large" style="display: flex;">
                             <p>
                                 Non-Social
                                 <img src="./Assets/images/7014862.png" alt="" class="w3-col s3 l3" style="float: none;">
