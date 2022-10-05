@@ -6,7 +6,6 @@
     object-fit: cover;
     object-position: 100% 55%;
     border: 10px solid #9bb7d0;
-  
 }
 
 header{
@@ -78,6 +77,16 @@ figure {
 
 #welcome{
     margin-left: 10px;
+}
+
+#welcome-fig-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#id-card{
+    order: 2;
+    margin-top: 30px;
 }
 }
 
