@@ -33,9 +33,14 @@ figure {
 
 .welcome-p {
     text-indent: 15px;
-    font-size: 26px;
+    font-size: 24px;
     padding-left: 10px;
 }    
+
+#welcome-list{
+    font-size: 24px;
+    margin-left: 20px;
+}
 
 #my-works-hdr{
     margin-top: 50px;
@@ -78,7 +83,10 @@ figure {
 
 #welcome{
     margin-left: 16px;
+}
 
+#welcome-list{
+    font-size: 16px;
 }
 
 main{
