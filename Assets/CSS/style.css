@@ -15,12 +15,13 @@ header{
 
 
 figure {
-    margin-left: 10px;
+    margin-left: 16px;
+    margin-top: 30px;
 }
 
 #welcome{
     border: solid;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 40px;
 }    
 
@@ -72,21 +73,23 @@ figure {
 
 @media screen and (max-width:600px){
 .welcome-p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #welcome{
-    margin-left: 10px;
+    margin-left: 16px;
+
 }
 
-#welcome-fig-container{
+main{
     display: flex;
     flex-direction: column;
 }
 
 #id-card{
-    order: 2;
+    order: 4;
     margin-top: 30px;
+    margin-left: 16px;
 }
 }
 
